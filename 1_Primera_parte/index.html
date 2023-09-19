@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --yellow-color: #F7DF1E;
+            --dark-color: #222;
+        }
+        .card {
+            display: inline-block;
+            background-color: var(--yellow-color);
+            color: var(--dark-color);
+        }
+        .card figcaption {
+            padding: 1rem;
+        }
+        .rotate-45 {
+            transform: rotate(45deg);
+        }
+        .rotate-135 {
+            transform: rotate(135deg);
+        }
+        .opacity-80 {
+            opacity: 80;
+        }
+        .sepia {
+            filter: sepia(1);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Data attributes -->
+    <h1>ATRIBUTOS Y DATA-ATTRIBUTES</h1>
+    <h2 class="atributo-h2" data-description="Atributo creado por nosotros">DOM</h2>
+    <a id="enlace-prueba" href="index.html">Enlace de prueba</a>
+    <hr>
+
+    <!-- Atributos y variables CSS -->
+    <h2>ESTILO Y VARIABLES CSS</h2>
+    <a href="./index.html" id="linkEstilosVariables" style="background-color: yellow; color: red;">Estilos y variables css</a>
+    <hr>
+
+    <!-- Clases CSS -->
+    <h2>Clases CSS</h2>
+    <div class="card">
+        <img src="./assets/escudo.jpg" style="width: 300px;">
+    </div>
+    <hr>
+    <br><br>
+
+    <!-- Texto y Html -->
+    <h2>TEXTO Y HTML</h2>
+    <p id="que-es">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas voluptate ex temporibus, placeat veritatis, ea adipisci perspiciatis iure, ipsam quasi incidunt fugiat sed laborum maiores deleniti quis? Voluptate, dolores quasi!
+    </p>
+
+    <script src="./Atributos_data-attributes.js"></script>
+    <script src="./estilos_Y_variables_css.js"></script>
+    <script src="./clases_CSS.js"></script>
+    <script src="./texto_y_html.js"></script>
+</body>
+</html>

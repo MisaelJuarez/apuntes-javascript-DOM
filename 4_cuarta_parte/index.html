@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .eventos-flujo div{
+            padding: 4rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+        .uno {
+            background-color: yellow;
+        }
+        .dos {
+            background-color: gold;
+        }
+        .tres {
+            background-color: lightyellow;
+        }
+        .eventos-Delegacion div{
+            padding: 4rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+        .uno {
+            background-color: yellow;
+        }
+        .dos {
+            background-color: gold;
+        }
+        .tres {
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manejadores de Eventos</h1>
+
+    <button id="evento-semantico">Evento con manejador semantico</button>
+    <br><br>
+    <button id="evento-multiple">Evento con manejador Multiple</button>
+    <br><br>
+    <button id="evento-remover">Removiendo eventos con manejadores multiples</button>
+    <br><br><br><br><br><br><br><br><br><br>
+    <h2>Flujo de Eventos</h2>
+    <section class="eventos-flujo">
+        <div class="uno">
+            1
+            <div class="dos">
+                2
+                <div class="tres">
+                    3
+                    <a href="https://www.youtube.com/" target="_blank" id="link">Yotube</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br>
+    <h2>Delegacion de eventos</h2>
+    <section class="eventos-Delegacion">
+        <div class="uno">
+            1
+            <div class="dos">
+                2
+                <div class="tres">
+                    3
+                    <a href="https://www.youtube.com/" target="_blank" id="link">Yotube</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./manejadores_eventos.js"></script>
+    <script src="./flujo_eventos.js"></script>
+    <script src="./delegacion_eventos.js"></script>
+</body>
+</html>
